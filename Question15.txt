@@ -11,4 +11,13 @@ c)Find the diff. between these directories using linux cmd
 >> diff -q original/ updated/
 
 d) make copy of folder "original" to some other .....
->>   
+>> mkdir originalBackup
+>> cp -r original/ originalBackup/  
+>> cp updated.sh originalBackup
+
+e) Verify that both folders have no diff. 
+>> diff -q updated/ originalBackup/
+
+output: 
+>> Common subdirectories: 
+
