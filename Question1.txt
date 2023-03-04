@@ -1,6 +1,6 @@
 
 a) View /etc/passwd file
->> Cat /etc/passwd
+>> Cat /etc/passwd 
 
 b) Print the 1st Field from /etc/passwd file
 >> cat /etc/passwd | awk '{print $1}' 

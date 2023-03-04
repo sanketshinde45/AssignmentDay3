@@ -1,0 +1,14 @@
+#Find The diff. between original and updated files
+
+a)create two directories as "original" and "updated"
+>> mkdir original updated
+
+b)copy given files...
+>> cp original-file.sh original
+>> cp updated-file.sh updated
+
+c)Find the diff. between these directories using linux cmd
+>> diff -q original/ updated/
+
+d) make copy of folder "original" to some other .....
+>>   
